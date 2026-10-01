@@ -1,0 +1,135 @@
+.card {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.type {
+  color: var(--text-muted);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.reward {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.statusSelect {
+  background: var(--bg-1);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 6px 8px;
+}
+
+.xpRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.xpBar {
+  flex: 1;
+  height: 8px;
+  background: var(--bg-1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.xpFill {
+  height: 100%;
+  background: var(--accent-2);
+  transition: width 0.2s ease;
+}
+
+.xpLabel {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  width: 40px;
+}
+
+.smallBtn {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 4px 8px;
+  font-size: 0.75rem;
+}
+
+.toggleBtn {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: var(--accent-2);
+  padding: 0;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
+.details {
+  margin-top: -4px;
+}
+
+.notes {
+  width: 100%;
+  min-height: 60px;
+  background: var(--bg-1);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 8px;
+  resize: vertical;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.resetBtn {
+  flex: 1;
+  background: none;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  padding: 6px 8px;
+  font-size: 0.75rem;
+}
+
+.removeBtn {
+  background: none;
+  border: 1px solid rgba(255, 107, 107, 0.4);
+  border-radius: 8px;
+  color: var(--diff-legendary);
+  padding: 6px 10px;
+  font-size: 0.75rem;
+}

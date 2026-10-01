@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.form input,
+.form select {
+  background: var(--bg-1);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 8px 10px;
+}
+
+.titleInput {
+  flex: 2;
+  min-width: 200px;
+}
+
+.rewardInput {
+  width: 110px;
+}
+
+.submitBtn {
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  color: #1a1a1a;
+  font-weight: 700;
+  padding: 8px 16px;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
